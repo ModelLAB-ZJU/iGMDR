@@ -1,0 +1,10 @@
+id,order,score,weight,color,label
+iGMDRD792,1,1,1,#FAE38C,"Cetuximab"
+iGMDRD288,1,1,1,#C32F4B,"Carboplatin"
+iGMDRD829,1,1,1,#C7E89E,"AV-203"
+iGMDRD972,1,1,1,#FEC574,"Patritumab"
+iGMDRD79,1,1,1,#FB9F59,"Gemcitabine"
+iGMDRD160,1,1,1,#4D9DB4,"Cis-Platin"
+iGMDRD68,1,1,1,#EAF195,"Paclitaxel"
+iGMDRD133,1,1,1,#FB9F59,"Lapatinib"
+iGMDRD817,1,1,1,#6CC4A4,"Anti-ERBB3 Agents"

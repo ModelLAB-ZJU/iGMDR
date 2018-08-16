@@ -1,0 +1,4 @@
+id,order,score,weight,color,label
+iGMDRD133,1,1,1,#E1514B,"Lapatinib"
+iGMDRD131,1,1,1,#FB9F59,"Erlotinib"
+iGMDRD353,1,1,1,#C32F4B,"PD0325901"

@@ -1,0 +1,4 @@
+id,order,score,weight,color,label
+iGMDRD763,1,1,1,#FEC574,"RNMT"
+iGMDRD763,1,16,1,#5E4EA1,"EGFR"
+iGMDRD763,1,1,1,#EAF195,"ERBB2"

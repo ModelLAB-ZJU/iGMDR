@@ -1,0 +1,4 @@
+id,order,score,weight,color,label
+iGMDRD447,1,21,1,#C7E89E,"EGFR"
+iGMDRD447,1,7,1,#4D9DB4,"ERBB2"
+iGMDRD447,1,1,1,#6CC4A4,"PTEN"

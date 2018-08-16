@@ -1,0 +1,12 @@
+id,order,score,weight,color,label
+iGMDRD433,1,3,1,#6CC4A4,"Lexibulin"
+iGMDRD399,1,3,1,#9CD6A4,"Selumetinib"
+iGMDRD202,1,6,1,#4776B4,"Curcumin"
+iGMDRD123,1,3,1,#6CC4A4,"Isoevodiamine"
+iGMDRD138,1,3,1,#FB9F59,"PX 12"
+iGMDRD64,1,3,1,#9E0041,"Parbendazole"
+iGMDRD137,1,4,1,#6CC4A4,"Indisulam"
+iGMDRD446,1,3,1,#F47245,"LY 2183240"
+iGMDRD670,1,2,1,#FAE38C,"ML 210"
+iGMDRD77,1,3,1,#4D9DB4,"Itraconazole"
+iGMDRD341,1,2,1,#F47245,"Triacsin c"

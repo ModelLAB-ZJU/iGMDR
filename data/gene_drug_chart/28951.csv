@@ -1,0 +1,9 @@
+id,order,score,weight,color,label
+iGMDRD60,1,2,1,#C32F4B,"Quinoclamine"
+iGMDRD77,1,2,1,#9E0041,"Itraconazole"
+iGMDRD560,1,3,1,#EAF195,"MK-2206"
+iGMDRD188,1,3,1,#4D9DB4,"Piperlongumine"
+iGMDRD297,1,2,1,#FB9F59,"Austocystin D"
+iGMDRD886,1,3,1,#5E4EA1,"Compound 1541A"
+iGMDRD329,1,2,1,#6CC4A4,"Merck60"
+iGMDRD634,1,4,1,#FB9F59,"SCHEMBL2608041"

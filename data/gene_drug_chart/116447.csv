@@ -1,0 +1,4 @@
+id,order,score,weight,color,label
+iGMDRD68,1,1,1,#C7E89E,"Paclitaxel"
+iGMDRD134,1,1,1,#EAF195,"Sorafenib"
+iGMDRD190,1,1,1,#9CD6A4,"Nilotinib"

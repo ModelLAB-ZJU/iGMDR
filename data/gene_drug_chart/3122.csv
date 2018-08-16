@@ -1,0 +1,4 @@
+id,order,score,weight,color,label
+iGMDRD978,1,1,1,#9E0041,"Pembrolizumab"
+iGMDRD955,1,1,1,#F47245,"Nivolumab"
+iGMDRD824,1,1,1,#EAF195,"Atezolizumab"

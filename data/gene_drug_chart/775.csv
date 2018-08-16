@@ -1,0 +1,4 @@
+id,order,score,weight,color,label
+iGMDRD131,1,1,1,#6CC4A4,"Erlotinib"
+iGMDRD399,1,1,1,#EAF195,"Selumetinib"
+iGMDRD353,1,2,1,#4776B4,"PD0325901"

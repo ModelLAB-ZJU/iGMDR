@@ -1,0 +1,5 @@
+id,order,score,weight,color,label
+iGMDRD916,1,1,1,#C7E89E,"NRAS"
+iGMDRD916,1,1,1,#6CC4A4,"NF1"
+iGMDRD916,1,1,1,#E1514B,"KRAS"
+iGMDRD916,1,1,1,#6CC4A4,"KMT2B"

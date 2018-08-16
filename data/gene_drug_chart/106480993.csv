@@ -1,0 +1,11 @@
+id,order,score,weight,color,label
+iGMDRD434,1,3,1,#FB9F59,"BMS-536924"
+iGMDRD60,1,3,1,#EAF195,"Quinoclamine"
+iGMDRD781,1,3,1,#EAF195,"Sirolimus"
+iGMDRD188,1,3,1,#9CD6A4,"Piperlongumine"
+iGMDRD286,1,6,1,#C32F4B,"Nsc 632839"
+iGMDRD300,1,3,1,#C32F4B,"Tozasertib"
+iGMDRD61,1,3,1,#F47245,"Kinetin riboside"
+iGMDRD126,1,3,1,#9E0041,"Tipifarnib"
+iGMDRD150,1,3,1,#EAF195,"RITA"
+iGMDRD505,1,3,1,#6CC4A4,"Pevonedistat"

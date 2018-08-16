@@ -1,0 +1,149 @@
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.bar {
+  fill: orange;
+}
+
+.solidArc:hover {
+  fill: orangered ;
+}
+
+.solidArc {
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.aster-score { 
+  line-height: 1;
+  font-weight: bold;
+  font-size: 500%;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+path.slice{
+	stroke-width:2px;
+	color:rgba(43,117,188,1);
+}
+
+polyline{
+	opacity: .3;
+	stroke: black;
+	stroke-width: 2px;
+	fill: none;
+	color:rgba(43,117,188,1);
+}
+
+.links line {
+  stroke: #999;
+  stroke-opacity: 0.6;
+}
+
+.nodes circle {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+.chart rect {
+  fill: rgba(43,117,188,0.6);
+}
+
+.chart text {
+  fill: white;
+  font: 10px Chalkboard;
+  text-anchor: end;
+}
+
+.chart .label {
+  fill: rgba(43,117,188,1);
+  font: 11px Chalkboard;
+  text-anchor: end;
+}
+
+.bar:hover {
+  fill: rgba(43,117,188,0.3);
+}
+
+.axis path,
+.axis line {
+  fill: rgba(43,117,188,1);
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+.charti rect {
+  fill: rgba(116,196,118,0.8);
+}
+
+.charti .label {
+  fill: rgba(43,117,188,1);
+  font: 11px Chalkboard;
+  text-anchor:start;
+}
+
+.bari:hover {
+  fill: rgba(116,196,118,0.5);
+}
+.chartp rect {
+  fill: rgba(199,233,192,1);
+}
+
+.chartp .label {
+  fill: rgba(43,117,188,1);
+  font: 11px Chalkboard;
+  text-anchor:start;
+}
+
+.barp:hover {
+  fill: rgba(199,233,192,0.5);
+}
+.chartg rect {
+  fill: rgba(174,199,232,1);
+}
+
+.chartg .label {
+  fill: rgba(43,117,188,1);
+  font: 11px Chalkboard;
+  text-anchor:start;
+}
+
+.barg:hover {
+  fill: rgba(174,199,232,0.5);
+}

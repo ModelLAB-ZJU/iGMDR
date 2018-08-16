@@ -1,0 +1,5 @@
+id,order,score,weight,color,label
+iGMDRD590,1,5,1,#FB9F59,"AKT1"
+iGMDRD590,1,2,1,#4D9DB4,"PTEN"
+iGMDRD590,1,2,1,#4776B4,"MTOR"
+iGMDRD590,1,4,1,#5E4EA1,"PIK3CA"

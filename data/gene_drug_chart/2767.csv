@@ -1,0 +1,7 @@
+id,order,score,weight,color,label
+iGMDRD983,1,8,1,#FB9F59,"PI3K pathway inhibitor"
+iGMDRD42,1,4,1,#9CD6A4,"Vorinostat"
+iGMDRD470,1,1,1,#FAE38C,"Trametinib"
+iGMDRD662,1,1,1,#E1514B,"JQ-1"
+iGMDRD399,1,5,1,#F47245,"Selumetinib"
+iGMDRD333,1,8,1,#9CD6A4,"MEK Inhibitor"

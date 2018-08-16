@@ -1,0 +1,6 @@
+id,order,score,weight,color,label
+iGMDRD68,1,4,1,#FB9F59,"Paclitaxel"
+iGMDRD160,1,1,1,#5E4EA1,"Cis-Platin"
+iGMDRD328,1,1,1,#4D9DB4,"AR-42"
+iGMDRD288,1,1,1,#4D9DB4,"Carboplatin"
+iGMDRD309,1,2,1,#E1514B,"17AAG"

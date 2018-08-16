@@ -1,0 +1,5 @@
+id,order,score,weight,color,label
+iGMDRD122,1,1,1,#9E0041,"Levoleucovorin"
+iGMDRD368,1,1,1,#FB9F59,"Oxaliplatin"
+iGMDRD80,1,1,1,#EAF195,"Irinotecan"
+iGMDRD21,1,1,1,#9CD6A4,"Fluorouracil"

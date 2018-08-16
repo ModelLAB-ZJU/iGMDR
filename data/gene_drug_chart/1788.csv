@@ -1,0 +1,5 @@
+id,order,score,weight,color,label
+iGMDRD74,1,1,1,#9E0041,"Idarubicin"
+iGMDRD176,1,1,1,#4776B4,"Decitabine"
+iGMDRD65,1,3,1,#4776B4,"Daunorubicin"
+iGMDRD309,1,1,1,#FEC574,"17AAG"

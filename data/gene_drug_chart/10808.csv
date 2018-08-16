@@ -1,0 +1,4 @@
+id,order,score,weight,color,label
+iGMDRD21,1,2,1,#FAE38C,"Fluorouracil"
+iGMDRD368,1,1,1,#FAE38C,"Oxaliplatin"
+iGMDRD160,1,1,1,#4776B4,"Cis-Platin"

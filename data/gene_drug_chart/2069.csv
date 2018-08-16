@@ -1,0 +1,5 @@
+id,order,score,weight,color,label
+iGMDRD792,1,1,1,#FB9F59,"Cetuximab"
+iGMDRD967,1,1,1,#C7E89E,"Panitumumab"
+iGMDRD816,1,2,1,#FB9F59,"anti-EGFR mAbs"
+iGMDRD898,1,2,1,#9CD6A4,"EGFR mAb inhibitor"

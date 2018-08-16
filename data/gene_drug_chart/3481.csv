@@ -1,0 +1,6 @@
+id,order,score,weight,color,label
+iGMDRD117,1,1,1,#5E4EA1,"Docetaxel"
+iGMDRD462,1,2,1,#C7E89E,"OSI-906 (Linsitinib)"
+iGMDRD816,1,1,1,#C7E89E,"anti-EGFR mAbs"
+iGMDRD800,1,1,1,#6CC4A4,"Cabazitaxel"
+iGMDRD898,1,1,1,#4776B4,"EGFR mAb inhibitor"

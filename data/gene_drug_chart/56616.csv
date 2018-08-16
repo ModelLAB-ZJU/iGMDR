@@ -1,0 +1,8 @@
+id,order,score,weight,color,label
+iGMDRD479,1,1,1,#EAF195,"Veliparib"
+iGMDRD579,1,1,1,#4D9DB4,"PF750"
+iGMDRD344,1,1,1,#4776B4,"AZD7545"
+iGMDRD79,1,3,1,#9CD6A4,"Gemcitabine"
+iGMDRD889,1,3,1,#4D9DB4,"Compound 7d-cis"
+iGMDRD781,1,3,1,#FEC574,"Sirolimus"
+iGMDRD144,1,3,1,#9CD6A4,"NSC95397"

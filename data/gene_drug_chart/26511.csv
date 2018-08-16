@@ -1,0 +1,9 @@
+id,order,score,weight,color,label
+iGMDRD513,1,1,1,#E1514B,"BML-259"
+iGMDRD280,1,2,1,#C32F4B,"CYTOCHALASIN B"
+iGMDRD451,1,3,1,#FEC574,"Serdemetan"
+iGMDRD399,1,2,1,#C7E89E,"Selumetinib"
+iGMDRD100,1,2,1,#C32F4B,"Zebularine"
+iGMDRD780,1,2,1,#FEC574,"PP-30"
+iGMDRD187,1,1,1,#FEC574,"BRD9876"
+iGMDRD341,1,2,1,#C7E89E,"Triacsin c"

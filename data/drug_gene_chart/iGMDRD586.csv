@@ -1,0 +1,4 @@
+id,order,score,weight,color,label
+iGMDRD586,1,1,1,#FAE38C,"PTEN"
+iGMDRD586,1,1,1,#FEC574,"PIK3CA"
+iGMDRD586,1,1,1,#9E0041,"KRAS"

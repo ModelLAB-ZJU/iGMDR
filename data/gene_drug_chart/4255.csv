@@ -1,0 +1,4 @@
+id,order,score,weight,color,label
+iGMDRD13,1,1,1,#4D9DB4,"Carmustine"
+iGMDRD44,1,3,1,#F47245,"Temozolomide"
+iGMDRD485,1,1,1,#4776B4,"O(6)-benzylguanine"

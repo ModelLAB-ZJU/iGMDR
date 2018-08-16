@@ -1,0 +1,4 @@
+id,order,score,weight,color,label
+iGMDRD331,1,1,1,#4D9DB4,"Taxane"
+iGMDRD50,1,1,1,#9E0041,"Cytarabine"
+iGMDRD68,1,2,1,#6CC4A4,"Paclitaxel"

@@ -1,0 +1,12 @@
+id,order,score,weight,color,label
+iGMDRD5,1,3,1,#E1514B,"Tyrphostin AG 1478"
+iGMDRD85,1,3,1,#4776B4,"Ursolic acid"
+iGMDRD599,1,6,1,#C7E89E,"Salermide"
+iGMDRD330,1,1,1,#4D9DB4,"BRD4132"
+iGMDRD562,1,3,1,#C32F4B,"Navitoclax"
+iGMDRD2,1,3,1,#FB9F59,"PK-11195"
+iGMDRD221,1,3,1,#FB9F59,"Tamoxifen"
+iGMDRD375,1,3,1,#E1514B,"GW-405833"
+iGMDRD267,1,6,1,#EAF195,"Oligomycin A"
+iGMDRD309,1,1,1,#4776B4,"17AAG"
+iGMDRD133,1,1,1,#FAE38C,"Lapatinib"

@@ -1,0 +1,6 @@
+id,order,score,weight,color,label
+iGMDRD171,1,5,1,#C32F4B,"Pemetrexed"
+iGMDRD80,1,1,1,#E1514B,"Irinotecan"
+iGMDRD21,1,1,1,#4D9DB4,"Fluorouracil"
+iGMDRD530,1,1,1,#FB9F59,"MTX sodium"
+iGMDRD102,1,1,1,#9E0041,"Raltitrexed"

@@ -1,0 +1,5 @@
+id,order,score,weight,color,label
+iGMDRD89,1,3,1,#C7E89E,"Arabinosylguanine"
+iGMDRD194,1,3,1,#E1514B,"6-Mercaptopurine"
+iGMDRD216,1,3,1,#C7E89E,"6-Thioguanine"
+iGMDRD233,1,3,1,#4D9DB4,"Nelarabine"

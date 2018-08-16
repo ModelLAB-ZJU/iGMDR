@@ -1,0 +1,5 @@
+id,order,score,weight,color,label
+iGMDRD190,1,1,1,#FAE38C,"Nilotinib"
+iGMDRD484,1,6,1,#FEC574,"Pluripotin"
+iGMDRD126,1,6,1,#FAE38C,"Tipifarnib"
+iGMDRD144,1,2,1,#EAF195,"NSC95397"

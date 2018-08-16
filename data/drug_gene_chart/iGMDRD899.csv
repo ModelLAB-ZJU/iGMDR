@@ -1,0 +1,5 @@
+id,order,score,weight,color,label
+iGMDRD899,1,6,1,#C7E89E,"BRAF"
+iGMDRD899,1,1,1,#9CD6A4,"KRAS"
+iGMDRD899,1,16,1,#9E0041,"EGFR"
+iGMDRD899,1,1,1,#4D9DB4,"RNMT"

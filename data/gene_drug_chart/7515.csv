@@ -1,0 +1,7 @@
+id,order,score,weight,color,label
+iGMDRD281,1,1,1,#9CD6A4,"Vinorelbine base"
+iGMDRD160,1,1,1,#6CC4A4,"Cis-Platin"
+iGMDRD117,1,1,1,#F47245,"Docetaxel"
+iGMDRD441,1,1,1,#E1514B,"TW 37"
+iGMDRD79,1,1,1,#E1514B,"Gemcitabine"
+iGMDRD288,1,1,1,#9E0041,"Carboplatin"

@@ -1,0 +1,11 @@
+id,order,score,weight,color,label
+iGMDRD974,1,1,1,#FAE38C,"PD1 blockade"
+iGMDRD973,1,1,1,#4776B4,"PD1 Ab inhibitor"
+iGMDRD42,1,1,1,#4D9DB4,"Vorinostat"
+iGMDRD978,1,1,1,#C32F4B,"Pembrolizumab"
+iGMDRD470,1,1,1,#4776B4,"Trametinib"
+iGMDRD662,1,1,1,#4776B4,"JQ-1"
+iGMDRD550,1,1,1,#4D9DB4,"CGP-082996"
+iGMDRD658,1,1,1,#9E0041,"CHEMBL1673039"
+iGMDRD386,1,1,1,#4776B4,"TAK-715"
+iGMDRD608,1,1,1,#FAE38C,"Refametinib"

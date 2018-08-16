@@ -1,0 +1,13 @@
+id,order,score,weight,color,label
+iGMDRD154,1,3,1,#9E0041,"NSC23766"
+iGMDRD309,1,1,1,#5E4EA1,"17AAG"
+iGMDRD494,1,3,1,#C32F4B,"Neopeltolide"
+iGMDRD68,1,1,1,#C7E89E,"Paclitaxel"
+iGMDRD300,1,3,1,#9CD6A4,"Tozasertib"
+iGMDRD126,1,3,1,#9E0041,"Tipifarnib"
+iGMDRD780,1,3,1,#4776B4,"PP-30"
+iGMDRD60,1,3,1,#FAE38C,"Quinoclamine"
+iGMDRD268,1,3,1,#5E4EA1,"Cerulenin"
+iGMDRD434,1,3,1,#5E4EA1,"BMS-536924"
+iGMDRD132,1,4,1,#EAF195,"(-)-gallocatechin-3-O-gallate"
+iGMDRD330,1,3,1,#FB9F59,"BRD4132"

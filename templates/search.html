@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>{$title}</title>
+<link href="image/iGMDR.ico" rel="shortcut icon" />
+<link rel="stylesheet" href="css/style.css" />
+<script src="lib/jquery-1.12.1.min.js"></script>
+<script type="application/javascript">
+    var base_url = function(uri, with_mode, keep_ref, keep_other_params, additional_params) {
+
+        var base = '';
+        var mode_base = '';
+        var url = (with_mode === true ? mode_base : base);
+        if (url.length > 1 && url.charAt(url.length - 1) !== '/')
+            url += '/';
+
+        if (uri === undefined)
+            uri = '';
+        else
+            uri = $.trim(uri.toLowerCase());
+
+        if (uri.charAt(0) === '/')
+            uri = uri.substr(1);
+
+        if (uri.length > 1 && uri.charAt(uri.length - 1) !== '/')
+             uri += '';
+		//$("h2").append(url + uri + build_url_query_param_string(keep_ref, keep_other_params, additional_params));
+        return url + uri + build_url_query_param_string(keep_ref, keep_other_params, additional_params);
+		
+    }
+</script>
+<script src="lib/url.js"></script>
+</head>
+
+<body>
+	<div>
+    	<div class="main">
+    		<div class="nav">
+            <div class="navi">
+              <div class="nav-brand"><embed src="image/iGMDR_logo.svg" type="image/svg+xml" pluginspage="http://www.adobe.com/svg/viewer/install/" /></div>
+              <div id="nav-ui">
+                  <ul>
+                      <li><a href="index.php">iGMDR</a></li>
+                      <li><a href="search.php" class="nav-active">SEARCH</a></li>
+                      <li><a href="explore.php">EXPLORE</a></li>
+                      <li><a href="download.php">DOWNLOAD</a></li>
+                      <li><a href="doc.php">DOCUMENTATION</a></li>
+                      <li><a href="stat.php">STATISTICS</a></li>
+                  </ul>
+              </div>
+            </div>
+            </div>
+            <div id="subnav">
+            	<a href="index.php">HOME</a> / <a href="search.php">SEARCH</a> {$info}
+            </div>
+            <div class="container">
+            <div class="content-search">
+            	<div class="content-search-left">
+                <div class="content-search-form">
+                <div class="form-content">
+                  <h3>Search Models by Gene Symbol</h3>
+                  <form name="GeneSearch" id="GeneSearch">
+                    <label for="GeneDropdown"> <span class="label_text"> Select Gene: </span>
+                      <select name="gene" id="GeneDropdown">
+                        <option value="">Select Gene</option>
+                      </select>
+                    </label>
+                    <label for="GeneInput"> <span class="label_text">(OR) Input Gene: </span>
+                      <input name="gene_name" id="GeneInput" type="text" />
+                    </label>
+                    <input class="button" type="submit" value="Search">
+                  </form>
+                </div>
+                </div>
+                <div class="content-search-form">
+                <div class="form-content">
+                <h3>Search Models by Drug Name</h3>
+                  <form name="DrugSearch" id="DrugSearch">
+                    <label for="DrugDropdown"> <span class="label_text"> Select Drug: </span>
+                      <select name="drug" id="DrugDropdown">
+                        <option value="" selected="" default="">Select Drug</option>
+                      </select>
+                    </label>
+                    <label for="VariantDropdown"> <span class="label_text">(OR) Input Drug: </span>
+                      <input name="drug_names" id="DrugInput" type="text" />
+                    </label>
+                    <input class="button" type="submit" value="Search">
+                  </form>
+                </div>
+                </div>
+                <script src="lib/search.js"></script>
+              </div>
+              <div class="content-search-right">
+                <div class="content-search-sidebox">
+                 <h2>Using iGMDR</h2>
+                 <ul class="biglist">
+                    <li> <a href="help.php?oncotree">CMO Tumor Type Tree V1.1</a></li>
+                    <li> <a href="terms.php">Usage Terms</a> </li>
+                    <li> <a href="data.php">Data Access</a> </li>
+                    <li> <a href="contribute.php">How you can contribute</a> </li>
+                    <li> <a href="help.php?level">Level of evidence</a> </li>
+                    <li> <a href="help.php?type">Type of evidence</a> </li>
+                    <li> <a href="help.php?drug">Cancer drug list</a> </li>
+                    </ul>
+                  <h2>Please Cite Us:</h2>
+                  <p>iGMDR: an integrative database for investigating genetic model of drug response in cancer</i></p>
+                </div>
+              </div>
+              <div style="clear:both"></div>
+    		</div>
+            </div>
+            <div class="footer">
+            	<div class="foot-1">
+                  <div class="foot-1a">
+                  SITE
+                     <ul>
+                      <li><a href="index.php">iGMDR</a></li>
+                      <li><a href="search.php">SEARCH</a></li>
+                      <li><a href="explore.php">EXPLORE</a></li>
+                      <li><a href="download.php">DOWNLOAD</a></li>
+                      <li><a href="doc.php">DOCUMENTATION</a></li>
+                  	</ul>
+                  </div>
+                  <div class="foot-1a">
+                  DATATYPES
+                    <ul>
+                      <li><a href="data_type.php?dataset">DATASETS</a></li>
+                      <li><a href="data_type.php?tissue">TISSUES</a></li>
+                      <li><a href="data_type.php?cancer">CANCERS</a></li>
+                      <li><a href="data_type.php?drug">DRUGS</a></li>
+                      <li><a href="data_type.php?gene">GENES</a></li>
+                  	</ul>
+                  </div>
+                  <div class="foot-1a">
+                  CLASSFICATION
+                  	<ul>
+                      <li><a href="drug_info.php?drug_class">DRUG CLASS</a></li>
+                      <li><a href="drug_info.php?drug_target">DRUG TARGETS</a></li>
+                      <li><a href="drug_info.php?drug_pathway">DRUG PATHWAYS</a></li>
+                  	</ul>
+                   </div>
+                   <div class="foot-1b"><a href="http://www.visitormap.org/" target="_top"><img src="http://www.visitormap.org/map/m:pielsayqegjzuctb/s:1/c:c0c0c0/p:dot/y:0.png" alt="Free Visitor Maps at VisitorMap.org" border="0" style=" margin:0; padding:0; height:130px; opacity:0.4; filter:alpha(opacity=40);" ></a>
+                   </div>
+                </div>
+                <div style="clear:both"></div>
+    			<div class="foot-2">
+      				<p>Copyright © 2018 <a href="#">Modellab</a> | All Rights Reserved</p>
+      				<p style="font-size:12px;">Disclaimer: iGMDR is intended for research purposes only. Its information cannot be used for emergencies or medical or professional advice.</p>
+    			</div>
+  			</div>
+            <div style="clear:both"></div>
+  		</div>
+   	</div>
+</body>
+</html>

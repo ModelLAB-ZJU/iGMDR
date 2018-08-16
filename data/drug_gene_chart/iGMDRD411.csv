@@ -1,0 +1,4 @@
+id,order,score,weight,color,label
+iGMDRD411,1,6,1,#5E4EA1,"BRCA1"
+iGMDRD411,1,2,1,#F47245,"PALB2"
+iGMDRD411,1,7,1,#C7E89E,"BRCA2"

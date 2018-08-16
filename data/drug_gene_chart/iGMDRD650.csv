@@ -1,0 +1,5 @@
+id,order,score,weight,color,label
+iGMDRD650,1,1,1,#5E4EA1,"ERBB2"
+iGMDRD650,1,1,1,#9E0041,"ESR1"
+iGMDRD650,1,1,1,#EAF195,"TP53"
+iGMDRD650,1,4,1,#C32F4B,"KRAS"

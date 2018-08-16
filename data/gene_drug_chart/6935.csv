@@ -1,0 +1,5 @@
+id,order,score,weight,color,label
+iGMDRD79,1,1,1,#FB9F59,"Gemcitabine"
+iGMDRD50,1,1,1,#FAE38C,"Cytarabine"
+iGMDRD66,1,2,1,#9CD6A4,"Doxorubicin"
+iGMDRD529,1,1,1,#F47245,"Salinomycin"

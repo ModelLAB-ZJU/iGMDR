@@ -1,0 +1,9 @@
+id,order,score,weight,color,label
+iGMDRD546,1,3,1,#C7E89E,"BMS-754807"
+iGMDRD77,1,3,1,#FAE38C,"Itraconazole"
+iGMDRD562,1,9,1,#5E4EA1,"Navitoclax"
+iGMDRD187,1,1,1,#5E4EA1,"BRD9876"
+iGMDRD494,1,3,1,#4776B4,"Neopeltolide"
+iGMDRD318,1,6,1,#9E0041,"PAC-1"
+iGMDRD150,1,1,1,#C7E89E,"RITA"
+iGMDRD679,1,2,1,#4D9DB4,"Bistramide A"

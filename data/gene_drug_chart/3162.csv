@@ -1,0 +1,4 @@
+id,order,score,weight,color,label
+iGMDRD134,1,1,1,#FAE38C,"Sorafenib"
+iGMDRD309,1,2,1,#FEC574,"17AAG"
+iGMDRD241,1,1,1,#C7E89E,"Sunitinib"

@@ -1,0 +1,5 @@
+id,order,score,weight,color,label
+iGMDRD83,1,1,1,#5E4EA1,"TP53"
+iGMDRD83,1,7,1,#FB9F59,"DPYD"
+iGMDRD83,1,1,1,#EAF195,"BRAF"
+iGMDRD83,1,3,1,#F47245,"ERBB2"

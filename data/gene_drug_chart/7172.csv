@@ -1,0 +1,5 @@
+id,order,score,weight,color,label
+iGMDRD217,1,6,1,#C7E89E,"Thioguanine"
+iGMDRD160,1,6,1,#F47245,"Cis-Platin"
+iGMDRD195,1,6,1,#9CD6A4,"Mercaptopurine"
+iGMDRD284,1,2,1,#FB9F59,"Palbociclib"

@@ -1,0 +1,5 @@
+id,order,score,weight,color,label
+iGMDRD565,1,1,1,#C7E89E,"MYC"
+iGMDRD565,1,1,1,#5E4EA1,"KRAS"
+iGMDRD565,1,1,1,#5E4EA1,"PROC"
+iGMDRD565,1,1,1,#EAF195,"NOTCH1"

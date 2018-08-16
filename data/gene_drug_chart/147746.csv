@@ -1,0 +1,10 @@
+id,order,score,weight,color,label
+iGMDRD42,1,3,1,#4D9DB4,"Vorinostat"
+iGMDRD137,1,3,1,#C32F4B,"Indisulam"
+iGMDRD484,1,3,1,#5E4EA1,"Pluripotin"
+iGMDRD427,1,3,1,#EAF195,"ABT737"
+iGMDRD634,1,3,1,#EAF195,"SCHEMBL2608041"
+iGMDRD886,1,3,1,#EAF195,"Compound 1541A"
+iGMDRD60,1,1,1,#4D9DB4,"Quinoclamine"
+iGMDRD705,1,1,1,#4D9DB4,"Nakiterpiosin"
+iGMDRD872,1,1,1,#9E0041,"BRD7137"

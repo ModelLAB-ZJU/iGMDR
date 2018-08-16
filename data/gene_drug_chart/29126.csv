@@ -1,0 +1,10 @@
+id,order,score,weight,color,label
+iGMDRD977,1,2,1,#E1514B,"PDL1 inhibitor"
+iGMDRD978,1,6,1,#6CC4A4,"Pembrolizumab"
+iGMDRD830,1,1,1,#5E4EA1,"Avelumab"
+iGMDRD929,1,1,1,#FB9F59,"Ipilimumab"
+iGMDRD313,1,1,1,#F47245,"Axitinib"
+iGMDRD824,1,8,1,#FB9F59,"Atezolizumab"
+iGMDRD955,1,6,1,#E1514B,"Nivolumab"
+iGMDRD594,1,1,1,#FAE38C,"AZD-8055"
+iGMDRD508,1,1,1,#6CC4A4,"KU0063794"

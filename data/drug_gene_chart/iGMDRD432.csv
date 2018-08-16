@@ -1,0 +1,5 @@
+id,order,score,weight,color,label
+iGMDRD432,1,1,1,#5E4EA1,"KMT2B"
+iGMDRD432,1,1,1,#E1514B,"INPP4A"
+iGMDRD432,1,1,1,#C7E89E,"NRAS"
+iGMDRD432,1,2,1,#F47245,"TP53"

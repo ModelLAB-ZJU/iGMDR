@@ -1,0 +1,10 @@
+id,order,score,weight,color,label
+iGMDRD945,1,6,1,#9CD6A4,"ML214"
+iGMDRD318,1,4,1,#5E4EA1,"PAC-1"
+iGMDRD126,1,3,1,#4D9DB4,"Tipifarnib"
+iGMDRD219,1,3,1,#C7E89E,"Bax channel blocker"
+iGMDRD577,1,3,1,#C32F4B,"BIX01294"
+iGMDRD887,1,3,1,#C7E89E,"Compound 23 citrate"
+iGMDRD289,1,1,1,#C7E89E,"Parthenolide"
+iGMDRD105,1,3,1,#FEC574,"Triptolide"
+iGMDRD341,1,3,1,#F47245,"Triacsin c"

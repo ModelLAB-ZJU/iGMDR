@@ -1,0 +1,4 @@
+id,order,score,weight,color,label
+iGMDRD406,1,2,1,#EAF195,"NF1"
+iGMDRD406,1,1,1,#EAF195,"HRAS"
+iGMDRD406,1,10,1,#C7E89E,"NRAS"

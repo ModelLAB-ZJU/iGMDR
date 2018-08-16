@@ -1,0 +1,4 @@
+id,order,score,weight,color,label
+iGMDRD383,1,1,1,#FB9F59,"BRCA1"
+iGMDRD383,1,2,1,#FB9F59,"NF1"
+iGMDRD383,1,1,1,#EAF195,"BRCA2"

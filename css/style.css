@@ -1,0 +1,490 @@
+/* CSS Document */
+
+body {
+	font-family: Chalkboard, "Gotham SSm A", "Gotham SSm B", "Helvetica Neueu", Helvetica, Arial, sans-serif;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	display: block;
+	font-size: 12px;
+	line-height: 1.428571429;
+	color: rgba(43,117,188,1);
+	background: transparent;
+}
+.main {
+	width: 980px;
+	margin: 0 auto 0 auto;
+	padding: 0 auto 0 auto;
+	border-left: 1px solid rgba(43,117,188,1);
+	border-right: 1px solid rgba(43,117,188,1);	
+	z-index: -1;
+	background-color:rgba(251,251,251,1);
+}
+.nav {
+	width: 980px;
+	height: 60px;
+	margin:0;
+	padding:0;
+	background-color:rgba(43,117,188,1);
+	z-index: 1;
+}
+.navi {
+	margin: 0 auto 0 auto;
+	padding: 0 auto 0 auto;
+	width: 900px;
+}
+.nav-brand {
+	float: left;
+	width:60px;
+	height:60px;
+}
+
+#nav-ui {
+	float: left;
+}
+#nav-ui ul, li {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	display: block;
+	float: left;
+	height:60px;
+}
+#nav-ui a {
+	line-height: 58px;
+	display: block;
+	font-size:13px;
+	color: rgba(189,192,206,1);
+	padding: 0 10px 0 10px;
+	text-decoration: none;
+	/*border-bottom: 3px solid transparent;*/
+	position: relative;
+	margin: 0 10px 0 10px;
+}
+#nav-ui a:hover {
+	color: rgba(255,255,255,1);
+}
+#nav-ui .nav-active{
+	color:rgba(255,255,255,1);
+}
+#subnav {
+	padding-left:50px;
+	line-height:30px;
+	border-bottom: 1px solid rgba(43,117,188,0.2);
+}
+#subnav a{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	color:rgba(43,117,188,0.8);
+}
+.container{
+	background-color: transparent;
+}
+.content-search {
+	width: 950px;
+	margin: 15px auto 15px auto;
+}
+.content-search-left {
+	width: 630px;
+	height:480px;
+	float: left;
+}
+.content-search-form {
+	border: 1px solid rgba(39,69,112,0.3);
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	background: rgba(255,255,255,0.8);
+	margin-bottom: 20px;
+	height:230px;
+}
+.content-search-form h3 {
+	color: rgba(39,69,112,1);
+	font-size: 24px;
+	font-weight: normal;
+	margin: 2px 0 22px;
+}
+
+.content-search-form form label {
+	position: relative;
+	display: block;
+	margin: 0 0 30px 0;
+	text-align: center;
+	vertical-align:text-top;
+}
+
+.content-search-form input, select {
+	width: 55%;
+	padding: 5px;
+	margin-right: 30px;
+	border: 1px solid rgba(39,69,112,0.3);
+}
+
+.content-search-form form input {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	width: 53%;
+	padding: 5px;
+	margin-right: 30px;
+	height:8px;
+	border: 1px solid rgba(39,69,112,0.3);
+}
+.content-search-form .label_text {
+	display: inline-block;
+	width: 150px;
+	text-align: right;
+	margin-right: 3px;
+}
+.content-search-form form input.button {
+	width:90px;
+	height: 30px;
+	background: rgba(255,255,255,1);
+	text-align: center;
+	vertical-align: middle;
+	border: 1px solid rgba(39,69,112,0.3);
+	border-radius: 5px;
+	cursor: pointer;
+	color: rgba(0,0,0,1);
+	text-transform: uppercase;
+	/*padding:0 10px;*/
+	font-size:13px;
+	position: relative;
+	left: 218px;
+}
+.content-search-form form input.button:hover {
+	background: rgba(43,117,188,1);
+	color: rgba(255,255,255,1);
+}
+.form-content{
+	margin:15px;
+}
+.content-search-right {
+	width: 300px;
+	float: left;
+	margin-left: 20px;
+}
+.content-search-sidebox {
+	border: 1px solid rgba(39,69,112,0.3);
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	padding:15px;
+	height: 452px;
+	background-color:rgba(255,255,255,1);
+}
+.content-search-result{
+	width: 950px;
+	margin: 15px auto 15px auto;
+}
+.content-search-result-left{
+	width: 465px;
+	float:left;
+}
+.content-result{
+	border: 1px solid rgba(39,69,112,0.3);
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	background-color:rgba(255,255,255,1);
+	margin-bottom: 20px;
+	padding:10px;
+	min-height:200px;
+}
+.content-result h4{
+	color:rgba(253,168,27,1);
+}
+.content-search-result-right{
+	width: 465px;
+	float:right;
+}
+#gene_drug_draw{
+	margin:20px 0 20px 70px;
+}
+#drug_gene_draw{
+	margin:20px 0 20px 70px;
+}
+#gene_exp_draw{
+	margin:20px 0 20px 0;
+	color:rgba(43,117,188,1);
+}
+#ProjectDropdown{
+	width: 55%;
+	padding: 5px;
+	margin-right: 30px;
+	margin-top: 7px;
+	height:18px;
+	border: 1px solid rgba(39,69,112,0.3);
+	font-size:12px;
+	font-family:Chalkboard;
+	color:rgba(43,117,188,1);
+}
+#gd_network_draw{
+	margin: 20px 0 20px 0;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+}
+#dg_network_draw{
+	margin: 20px 0 20px 0;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+}
+#gene_tissue_cancer{
+	margin: 20px 0 20px 0;
+}
+#gene_drug_targets{
+	margin: 30px 0 20px 0;
+}
+#gene_drug_pathway{
+	margin: 30px 0px 20px 10px;
+}
+#drug_gene_pathway_enrichment{
+	margin: 30px 0px 20px 10px;
+}
+#drug_gene_go_enrichment{
+	margin: 30px 0px 20px 10px;
+}
+.content-index{
+	width: 900px;
+	margin: 0 auto 0 auto;
+}
+.content-index-about{
+	margin: 50px auto 50px auto;
+	width: 700px;
+	line-height:25px;
+}
+.content-index-about h3{
+	font-size:16px;
+	color:rgba(43,117,188,1);
+	text-align:center;
+	margin-bottom:30px;
+}
+.content-explore{
+	width: 900px;
+	margin: 0 auto 0 auto;
+}
+.content-explore-1{
+	margin: 50px auto 50px auto;
+	width: 900px;
+	line-height:25px;
+}
+.content-doc{
+	width: 900px;
+	margin: 0 auto 0 auto;
+}
+.content-doc-1{
+	margin:50px 20px 0 0;
+	padding:0;
+	height: 130px;
+	width: 145px;
+	float:left;
+	font-size:13px;
+	color:rgba(43,117,188,0.8);
+}
+.content-doc-1 ul{
+	margin:0;
+	padding:0;
+	height:130px;
+}
+.content-doc-1 li{
+	margin:0 0 5px 0;
+	padding:0 0 0 10px;
+	display:block;
+	height:25px;
+	line-height:25px;
+	float:none;
+	border-left:3px rgba(43,117,188,0.8) solid;
+
+}
+.content-doc-1 a{
+	font-size:12px;
+	color: rgba(43,117,188,0.8);
+	text-decoration: none;
+}
+.content-doc-1 a:hover {
+	color:rgba(43,117,188,1);
+	font-size:13px;
+}
+.content-doc-1 .active{
+	color: rgba(43,117,188,1);
+	font-size:13px;
+}
+.content-doc-2{
+	margin: 40px auto 50px auto;
+	width: 700px;
+	line-height:25px;
+	float:left;
+}
+.content-download{
+	width: 900px;
+	margin: 0 auto 0 auto;
+}
+.content-download-1{
+	margin: 50px auto 50px auto;
+	width: 700px;
+	line-height:25px;
+}
+.content-download-1 h3{
+	font-size:16px;
+	color:rgba(43,117,188,1);
+	text-align:center;
+	margin-bottom:30px;
+}
+.content-download-1 ul{
+	margin:0;
+	padding:0;
+}
+.content-download-1 li{
+	margin:0 0 5px 0;
+	padding:0 0 0 10px;
+}
+.footer {
+	height: 200px;
+	background-color: rgba(43,117,188,1);
+	width: 980px;
+	z-index: -1;
+}
+.foot-1 {
+	margin: 0 auto 0 auto;
+	height: 130px;
+	width: 800px;
+	z-index: -1;
+}
+.foot-1a {
+	margin:15px;
+	padding:0;
+	height: 130px;
+	width: 145px;
+	float:left;
+	font-size:13px;
+	color:rgba(255,255,255,1);
+}
+.foot-1a ul{
+	margin:0;
+	padding:0;
+	height:130px;
+}
+.foot-1a li{
+	margin:0;
+	padding:0;
+	height:21px;
+	float:none;
+}
+.foot-1a a {
+	font-size:12px;
+	color: rgba(189,192,206,1);
+	text-decoration: none;
+}
+.foot-1a a:hover {
+	color:rgba(255,255,255,1);
+}
+.foot-1b {
+	margin:15px;
+	padding:0;
+	height: 130px;
+	width: 240px;
+	float:left;
+}
+.foot-2 {
+	margin: 0 auto 0 auto;
+	height: 40px;
+	width: 980px;
+	color: rgba(255,255,255,1);
+	/*background-color:rgba(0,0,0,1);*/
+	text-align: center;
+	z-index: 1;
+}
+.foot-2 p {
+	margin: 0;
+	padding: 0;
+	padding-top: 0px;
+}
+.foot-2 a {
+	color: rgba(255,255,255,1);
+	text-decoration: underline
+}
+ul.biglist{
+	padding:0;
+	margin:0;
+	height:100px;
+}
+ul.biglist li {
+    list-style-type: none;
+    margin: 0 0 0 0;
+    padding: 0 0 0 20px;
+	display: block;
+	height:25px;
+	width:100%;
+}
+ul.biglist li a {
+	color:rgba(43,117,188,1);
+	text-decoration:none;
+}
+ul.biglist li a:hover {
+	text-decoration:underline;
+}
+ul.biglist li:before {
+    position: absolute;
+    content: "\25B8";
+    font-size: 1.3em;
+    margin-left: -18px;
+    margin-top: -4px;
+}
+.druglabel{
+	display:block;
+	line-height:25px;
+	margin:0 10px 5px 0px;
+	padding:0 5px 0 5px;
+	background-color:rgba(217,237,247,1);
+	min-width:12px;
+	border-radius:.25rem;
+	float:left;
+}
+.drug_info_label{
+	display:block;
+	line-height:25px;
+	margin:0 10px 5px 0px;
+	padding:0 5px 0 5px;
+	background-color:rgba(217,237,247,1);
+	min-width:12px;
+	border-radius:.25rem;
+	float:left;
+}
+.data_type_label{
+	display:block;
+	line-height:25px;
+	margin:0 10px 5px 0px;
+	padding:0 6px 0 6px;
+	border:1px solid rgba(43,117,188,0.5);
+	min-width:12px;
+	border-radius:.25rem;
+	float:left;
+}
+.data_type_label:hover{
+	background-color:rgba(217,237,247,1);
+}
+.liquidFillGaugeText { font-family: Helvetica; font-weight: bold; font-size:12px; }
+.stat{
+	height:120px;
+	width:125px;
+	margin: 20 10 20 10;
+	text-align:center;
+	color:rgba(43,117,188,1);
+	float:left;
+}
+.stat_model_level{
+	display: -webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+    -webkit-box-orient: vertical;
+	height:7rem;
+	margin:0 10px 5px 0px;
+	padding:0 5px 0 5px;
+	border:1px solid rgba(43,117,188,0.5);
+	width:6.5rem;
+	border-radius:7rem;
+	text-align:center;
+	vertical-align:middle;
+	word-wrap:break-word;
+	float:left;
+}
+.stat_model_level:hover{
+	background-color:rgba(217,237,247,1);
+}

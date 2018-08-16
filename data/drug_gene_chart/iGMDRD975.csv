@@ -1,0 +1,5 @@
+id,order,score,weight,color,label
+iGMDRD975,1,1,1,#FAE38C,"JAK1"
+iGMDRD975,1,1,1,#4D9DB4,"JAK2"
+iGMDRD975,1,1,1,#9E0041,"PTEN"
+iGMDRD975,1,2,1,#5E4EA1,"HAVCR2"

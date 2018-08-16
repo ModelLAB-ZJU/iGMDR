@@ -1,0 +1,8 @@
+id,order,score,weight,color,label
+iGMDRD48,1,3,1,#FAE38C,"Dexamethasone"
+iGMDRD280,1,3,1,#C7E89E,"CYTOCHALASIN B"
+iGMDRD781,1,3,1,#FAE38C,"Sirolimus"
+iGMDRD61,1,3,1,#9E0041,"Kinetin riboside"
+iGMDRD341,1,6,1,#4D9DB4,"Triacsin c"
+iGMDRD297,1,3,1,#FEC574,"Austocystin D"
+iGMDRD872,1,3,1,#4776B4,"BRD7137"

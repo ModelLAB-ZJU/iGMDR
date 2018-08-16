@@ -1,0 +1,492 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "description" : "iGMDR API definition from Model-LAB. iGMDR provides genetic prediction model of drug response in cancer.",
+    "version" : "1.0.0",
+    "title" : "iGMDR API",
+    "contact" : {
+      "email" : "xiang-chen@zju.edu.cn"
+    }
+  },
+  "tags" : [ {
+    "name" : "gene_model",
+    "description" : "API for the model from specific gene"
+  }, {
+    "name" : "drug_model",
+    "description" : "API for the model from specific drug"
+  }, {
+    "name" : "models",
+    "description" : "API for models in iGMDR"
+  }, {
+    "name" : "gene_list",
+    "description" : "API for the gene list in iGMDR models"
+  }, {
+    "name" : "drug_list",
+    "description" : "API for the drug list from related models"
+  }, {
+    "name" : "drug_info",
+    "description" : "API for drug annotations in iGMDR"
+  } ],
+  "paths" : {
+    "/api/gene_model" : {
+      "get" : {
+        "tags" : [ "gene_model" ],
+        "summary" : "Returns models by a gene symbol or id",
+        "description" : "Returns models by a gene symbol or id",
+        "operationId" : "get_gene_model",
+        "produces" : [ "application/json" ],
+        "parameters" : [ {
+          "name" : "gene",
+          "in" : "query",
+          "required" : true,
+          "type" : "string",
+          "description" : "gene symbol refers HUGO Gene Nomenclature Committee, eg. egfr (or) gene id refers NCBI genebank, eg. 21"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "successful operation",
+            "schema" : {
+              "$ref" : "#/definitions/gene_model"
+            }
+          },
+          "404" : {
+            "description" : "Could not access to database"
+          }
+        }
+      },
+      "post" : {
+        "tags" : [ "gene_model" ],
+        "summary" : "Returns models by a gene symbol or id",
+        "description" : "Returns models by a gene symbol or id",
+        "operationId" : "post_gene_model",
+        "produces" : [ "application/json" ],
+        "parameters" : [ {
+          "name" : "gene",
+          "in" : "query",
+          "required" : true,
+          "type" : "string",
+          "description" : "gene symbol refers HUGO Gene Nomenclature Committee, eg. egfr (or) gene id refers NCBI genebank, eg. 21"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "successful operation",
+            "schema" : {
+              "$ref" : "#/definitions/gene_model"
+            }
+          },
+          "404" : {
+            "description" : "Could not access to database"
+          }
+        }
+      }
+    },
+    "/api/drug_model" : {
+      "get" : {
+        "tags" : [ "drug_model" ],
+        "summary" : "Returns models by drug id in iGMDR",
+        "description" : "Returns models by drug id in iGMDR",
+        "operationId" : "get_drug_model",
+        "produces" : [ "application/json" ],
+        "parameters" : [ {
+          "name" : "drug_id",
+          "in" : "query",
+          "required" : true,
+          "type" : "string",
+          "description" : "drug_id refers iGMDR, eg. iGMDRD2"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "successful operation",
+            "schema" : {
+              "$ref" : "#/definitions/drug_model"
+            }
+          },
+          "404" : {
+            "description" : "Could not access to database"
+          }
+        }
+      },
+      "post" : {
+        "tags" : [ "drug_model" ],
+        "summary" : "Returns models by drug id in iGMDR",
+        "description" : "Returns models by drug id in iGMDR",
+        "operationId" : "post_drug_model",
+        "produces" : [ "application/json" ],
+        "parameters" : [ {
+          "name" : "drug_id",
+          "in" : "query",
+          "required" : true,
+          "type" : "string",
+          "description" : "drug_id refers iGMDR, eg. iGMDRD2"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "successful operation",
+            "schema" : {
+              "$ref" : "#/definitions/drug_model"
+            }
+          },
+          "404" : {
+            "description" : "Could not access to database"
+          }
+        }
+      }
+    },
+    "/api/models" : {
+      "get" : {
+        "tags" : [ "models" ],
+        "summary" : "Returns model list and model annotations from iGMDR",
+        "description" : "Returns model list and model annotations from iGMDR",
+        "operationId" : "get_model",
+        "produces" : [ "application/json" ],
+        "parameters" : [],
+        "responses" : {
+          "200" : {
+            "description" : "successful operation",
+            "schema" : {
+              "$ref" : "#/definitions/models"
+            }
+          },
+          "404" : {
+            "description" : "Could not access to database"
+          }
+        }
+      },
+      "post" : {
+        "tags" : [ "models" ],
+        "summary" : "Returns model list and model annotations from iGMDR",
+        "description" : "Returns model list and model annotations from iGMDR",
+        "operationId" : "post_cancer_feature",
+        "produces" : [ "application/json" ],
+        "parameters" : [],
+        "responses" : {
+          "200" : {
+            "description" : "successful operation",
+            "schema" : {
+              "$ref" : "#/definitions/models"
+            }
+          },
+          "404" : {
+            "description" : "Could not access to database"
+          }
+        }
+      }
+    },
+    "/api/drug_info" : {
+      "get" : {
+        "tags" : [ "drug_info" ],
+        "summary" : "Returns drug annotation by drug id",
+        "description" : "Returns drug annotation by drug id",
+        "operationId" : "get_drug_info",
+        "produces" : [ "application/json" ],
+        "parameters" : [ {
+          "name" : "drug_id",
+          "in" : "query",
+          "required" : true,
+          "type" : "string",
+          "description" : "drug id refers iGMDR drug id"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "successful operation",
+            "schema" : {
+              "$ref" : "#/definitions/drug_info"
+            }
+          },
+          "404" : {
+            "description" : "Could not access to database"
+          }
+        }
+      },
+      "post" : {
+        "tags" : [ "drug_info" ],
+        "summary" : "Returns drug annotation by drug id",
+        "description" : "Returns drug annotation by drug id",
+        "operationId" : "post_drug_info",
+        "produces" : [ "application/json" ],
+        "parameters" : [ {
+          "name" : "cancer_name",
+          "in" : "query",
+          "required" : true,
+          "type" : "string",
+          "description" : "drug id refers iGMDR drug id"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "successful operation",
+            "schema" : {
+              "$ref" : "#/definitions/drug_info"
+            }
+          },
+          "404" : {
+            "description" : "Could not access to database"
+          }
+        }
+      }
+    },
+    "/api/gene_list" : {
+      "get" : {
+        "tags" : [ "gene_list" ],
+        "summary" : "Returns gene list in iGMDR models",
+        "description" : "Returns gene list in iGMDR models",
+        "operationId" : "get_gene_list",
+        "produces" : [ "application/json" ],
+        "parameters" : [ ],
+        "responses" : {
+          "200" : {
+            "description" : "successful operation",
+            "schema" : {
+              "$ref" : "#/definitions/gene_list"
+            }
+          },
+          "404" : {
+            "description" : "Could not access to database"
+          }
+        }
+      },
+      "post" : {
+        "tags" : [ "gene_list" ],
+        "summary" : "Returns gene list in iGMDR models",
+        "description" : "Returns gene list in iGMDR models",
+        "operationId" : "post_gene_list",
+        "produces" : [ "application/json" ],
+        "parameters" : [ ],
+        "responses" : {
+          "200" : {
+            "description" : "successful operation",
+            "schema" : {
+              "$ref" : "#/definitions/gene_list"
+            }
+          },
+          "404" : {
+            "description" : "Could not access to database"
+          }
+        }
+      }
+    },
+    "/api/drug_list" : {
+      "get" : {
+        "tags" : [ "drug_list" ],
+        "summary" : "Returns drug list from iGMDR",
+        "description" : "Returns drug list from iGMDR",
+        "operationId" : "get_drug_list",
+        "produces" : [ "application/json" ],
+        "parameters" : [ ],
+        "responses" : {
+          "200" : {
+            "description" : "successful operation",
+            "schema" : {
+              "$ref" : "#/definitions/drug_list"
+            }
+          },
+          "404" : {
+            "description" : "Could not access to database"
+          }
+        }
+      },
+      "post" : {
+        "tags" : [ "drug_list" ],
+        "summary" : "Returns drug list from iGMDR",
+        "description" : "Returns drug list from iGMDR",
+        "operationId" : "post_drug_list",
+        "produces" : [ "application/json" ],
+        "parameters" : [ ],
+        "responses" : {
+          "200" : {
+            "description" : "successful operation",
+            "schema" : {
+              "$ref" : "#/definitions/drug_list"
+            }
+          },
+          "404" : {
+            "description" : "Could not access to database"
+          }
+        }
+      }
+    }
+  },
+  "definitions" : {
+    "pathway" : {
+      "type" : "object",
+      "properties" : {
+        "description" : {
+          "type" : "string"
+        }
+      },
+      "xml" : {
+        "name" : "pathway"
+      }
+    },
+    "target" : {
+      "type" : "object",
+      "properties" : {
+        "description" : {
+          "type" : "string"
+        }
+      },
+      "xml" : {
+        "name" : "target"
+      }
+    },
+    "class" : {
+      "type" : "object",
+      "properties" : {
+        "description" : {
+          "type" : "string"
+        }
+      },
+      "xml" : {
+        "name" : "class"
+      }
+    },
+    "synonyms" : {
+      "type" : "object",
+      "properties" : {
+        "description" : {
+          "type" : "string"
+        }
+      },
+      "xml" : {
+        "name" : "synonyms"
+      }
+    },
+    "gene_model" : {
+      "type" : "object",
+      "properties" : {
+        "model" : {
+          "type" : "string"
+        },
+        "level" : {
+          "type" : "string"
+        },
+        "reference" : {
+          "type" : "string"
+        },
+        "tissue" : {
+          "type" : "string"
+        },
+        "cancer" : {
+          "type" : "string"
+        },
+        "drug" : {
+          "type" : "string"
+        },
+        "clinical_significance" : {
+          "type" : "string"
+        },
+        "source" : {
+          "type" : "string"
+        },
+        "model_id" : {
+          "type" : "string"
+        }
+      },
+      "xml" : {
+        "name" : "gene_model"
+      }
+    },
+    "drug_info" : {
+      "type" : "object",
+      "properties" : {
+        "drug_name" : {
+          "type" : "string"
+        },
+        "smiles" : {
+          "type" : "string"
+        },
+        "InChI" : {
+          "type" : "string"
+        },
+        "InChI_Key" : {
+          "type" : "string"
+        },
+        "pubchem_cid" : {
+          "type" : "string"
+        },
+        "kegg_id" : {
+          "type" : "string"
+        },
+        "chembl_id" : {
+          "type" : "string"
+        },
+        "drugbank_id" : {
+          "type" : "string"
+        },
+        "ttd_id" : {
+          "type" : "string"
+        },
+        "drug_type" : {
+          "type" : "string"
+        },
+        "drug_pathway" : {
+          "$ref" : "#/definitions/pathway"
+        },
+        "drug_target" : {
+          "$ref" : "#/definitions/target"
+        },
+        "drug_class" : {
+          "$ref" : "#/definitions/class"
+        },
+        "drug_synonyms" : {
+          "$ref" : "#/definitions/synonyms"
+        }
+      },
+      "xml" : {
+        "name" : "drug_info"
+      }
+    },
+    "drug_model" : {
+      "type" : "object",
+      "properties" : {
+        "cancer name" : {
+          "$ref" : "#/definitions/gene_model"
+        }
+      },
+      "xml" : {
+        "name" : "drug_model"
+      }
+    },
+    "models" : {
+      "type" : "object",
+      "properties" : {
+        "cancer name" : {
+          "$ref" : "#/definitions/gene_model"
+        }
+      },
+      "xml" : {
+        "name" : "models"
+      }
+    },
+    "gene_list" : {
+      "type" : "object",
+      "properties" : {
+        "gene_id" : {
+          "type" : "integer"
+        },
+        "gene_symbol" : {
+          "type" : "string"
+        }
+      },
+      "xml" : {
+        "name" : "gene_list"
+      }
+    },
+    "drug_list" : {
+      "type" : "object",
+      "properties" : {
+        "drug_id" : {
+          "type" : "string"
+        },
+        "drug_name" : {
+          "type" : "string"
+        }
+      },
+      "xml" : {
+        "name" : "drug_list"
+      }
+    }
+  },
+  "host" : "modellab.cn",
+  "basePath" : "/iGMDR",
+  "schemes" : [ "http" ]
+}

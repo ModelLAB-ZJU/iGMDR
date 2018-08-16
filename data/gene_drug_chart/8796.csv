@@ -1,0 +1,5 @@
+id,order,score,weight,color,label
+iGMDRD409,1,2,1,#F47245,"Saracatinib"
+iGMDRD134,1,1,1,#C32F4B,"Sorafenib"
+iGMDRD133,1,1,1,#4776B4,"Lapatinib"
+iGMDRD131,1,1,1,#FEC574,"Erlotinib"

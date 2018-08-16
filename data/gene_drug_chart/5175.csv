@@ -1,0 +1,8 @@
+id,order,score,weight,color,label
+iGMDRD551,1,1,1,#FEC574,"Ponatinib"
+iGMDRD289,1,1,1,#9E0041,"Parthenolide"
+iGMDRD401,1,1,1,#9E0041,"Afatinib"
+iGMDRD87,1,2,1,#FAE38C,"Epigallocatechin-3-monogallate"
+iGMDRD602,1,1,1,#EAF195,"Foretinib"
+iGMDRD798,1,1,1,#FB9F59,"Ceranib-2"
+iGMDRD394,1,1,1,#E1514B,"BX-795"

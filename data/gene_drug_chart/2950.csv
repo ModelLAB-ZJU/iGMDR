@@ -1,0 +1,5 @@
+id,order,score,weight,color,label
+iGMDRD288,1,1,1,#9E0041,"Carboplatin"
+iGMDRD729,1,1,1,#FAE38C,"Folfox protocol"
+iGMDRD68,1,1,1,#9E0041,"Paclitaxel"
+iGMDRD160,1,1,1,#F47245,"Cis-Platin"
