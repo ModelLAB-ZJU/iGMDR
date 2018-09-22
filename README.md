@@ -5,4 +5,4 @@ iGMDR database aims to build an open community collecting the results of the cur
 
 As shown in below, the iGMDR database collected 14 genetic characteristics of 1040 drugs of 144 cancer types of 30 tissue types, which formed 154,146 prediction models. The data we have integrated are the information of FDA, NCCN, ASCO and other clinical practices, and the information of pharmacogenetics experiment of model organism and cell line. In order to meet the requirements of big data analysis, we standardized information such as cancer, drugs and genetic characteristics, and stored such information using structured manner.
 
-![data](https://cl.ly/c3142f17cf27)
+![data](https://cl.ly/abf859891db6/Image%202018-09-22%20at%204.25.16%20PM.png "")
